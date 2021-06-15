@@ -150,8 +150,30 @@ var arr =[1,4,5,7,8,9,2,14];
 
 // }
 
-// Array Mathods
-console.log(arr.length);
-arr.push("Ritesh")
-// arr.pop("Ritesh")
-console.log(arr)
+// Array Methods
+// console.log(arr.length);
+// arr.push("Ritesh")
+// // arr.pop("Ritesh")
+// console.log(arr)
+
+// String Methods in JavaScript
+// let mystring = "Hii I am Ritesh Tiwari"
+// console.log(mystring.length);
+// console.log(mystring.indexOf("Ritesh"));
+// console.log(mystring.slice(9,13));
+// let bb = mystring.replace("Ritesh","Rishi");
+// console.log(mystring);
+// console.log(bb);
+
+//Date in JavaScript
+// let mydate = new Date();
+// console.log(mydate);
+// console.log(mydate.getTime());
+// console.log(mydate.getFullYear());
+// console.log(mydate.getDay());
+// console.log(mydate.getMinutes());
+// console.log(mydate.getHours());
+
+let elem = document.getElementsByClassName('contant')
+console.log(elem);
+elem[0].style.background = "yellow";
