@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            background-color: skyblue;
+        }
+
+        input {
+            border: 2px solid rgb(226, 63, 63);
+            padding: 15px;
+        }
+
+        .btn {
+            
+            padding: 15px;
+            box-shadow: 3px 3px 6px #d47070;
+        }
+
+        h1 {
+            background-color: royalblue;
+            text-align: center;
+            border-radius: 30px;
+            font-size: 40px;
+        }
+
+        @media screen and (max-width:600px) {
+            .btn {
+                width: 100%;
+
+            }
+
+            input[text] {
+                width: 100%;
+            }
+            h1 {
+                font-size: 25px;
+            }
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Student Name Entry</h1><br><br>
+    Name:<input type="text" id="mytext" value=" ">
+    <button class = "btn" onclick="myfunction()">Submit</button>
+    <button class = "btn" onclick="myfunction1()">Name Data</button>
+    <p id="demo"></p>
+    <script src="name.js"></script>
+</body>
+
+</html>
